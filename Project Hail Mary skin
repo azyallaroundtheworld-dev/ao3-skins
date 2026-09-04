@@ -1,0 +1,888 @@
+#header {
+  background-image: url("https://64.media.tumblr.com/0d66bbdc65ceadac0d32c203a9572a08/be11781d077e2cc8-74/s1280x1920/9b013d6c47e5ca27f2ffbd149ba353aa8c1410d4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #151726;
+}
+
+#header h1.heading a::before {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  content: " ";
+  background-image: url("https://64.media.tumblr.com/0de5532a78bf7d66afb11570e29131a2/db717449eab24c55-6a/s1280x1920/87962f849c834228f15a1930bf4e4843e03ccf62.jpg");
+  background-size: 50px 50px;
+}
+
+#header .heading {
+  height: 15em;
+}
+
+#header .primary {
+  background: #0d0e1f;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+#header .logo,
+#header .heading sup {
+  visibility: hidden;
+}
+
+#header .heading a {
+  color: #151726;
+}
+
+.event .userstuff {
+  background: #424c5e;
+  border: 1px solid #ECD3ED;
+}
+
+#outer.wrapper {
+  background: #0d0e1f;
+  color: #ECD3ED;
+}
+
+#main a {
+  color: #76859b;
+}
+
+#greeting a.dropdown-toggle,
+#header .actions a {
+  color: #ECD3ED !important;
+  text-shadow: 0px 0px 3px #151726;
+}
+
+#greeting .menu,
+#header .dropdown .menu,
+#header .dropdown:hover a {
+  background: #0d0e1f;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+span.submit.actions input.button {
+  display: none;
+}
+
+#greeting img.icon {
+  display: none;
+}
+
+#header #search .text,
+.search [role="tooltip"] {
+  background: #0d0e1f;
+  box-shadow: 0px 0px 3px #ECD3ED;
+  color: #ECD3ED !important;
+  border: 1px solid #0d0e1f;
+}
+
+form.search input[type=text],
+form.search input[type=submit],
+.autocomplete div.dropdown ul {
+  background: #0d0e1f !important;
+  border: none;
+  box-shadow: 0px 0px 3px #ECD3ED;
+  color: #ECD3ED;
+  display: block;
+}
+
+#header #search .text {
+  width: 7em;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  background: #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED !important;
+  color: #0d0e1f;
+  border: none;
+}
+
+.notice a,
+.comment_notice a,
+.kudos_notice a,
+ul.notes a,
+.caution a,
+.error a,
+.comment_error a,
+.kudos_error a,
+.alert.flash a {
+  color: #505b69;
+  font-weight: bold;
+}
+
+.splash .module h3 {
+  color: #ECD3ED;
+  border-bottom: 2px solid #ECD3ED;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a {
+  background: #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED;
+  color: #0d0e1f;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.splash .favorite li:nth-of-type(2n+2) a {
+  color: #ECD3ED;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 110%;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a:hover,
+.splash .favorite li:nth-of-type(2n+2) a:hover {
+  color: #ECD3ED;
+  font-weight: bold;
+  font-variant: small-caps;
+  background: #424c5e;
+}
+
+#footer {
+  background: #424c5e;
+  color: #ECD3ED;
+  border-top: 3px solid #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+#footer a,
+#footer .heading {
+  color: #ECD3ED;
+}
+
+.actions a,
+.actions a:focus,
+.actions input:focus,
+.action:focus,
+.actions li input,
+.actions li input[type="submit"],
+input[type="submit"],
+.actions li label,
+ul.navigation.actions li a,
+.action:link,
+.actions a:link {
+  background: #424c5e;
+  border: 1px solid #ECD3ED;
+  color: #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED;
+  border-radius: 5px;
+}
+
+.current,
+#dashboard .current {
+  background: #ECD3ED !important;
+  color: #0d0e1f !important;
+  box-shadow: 0px 0px 3px #ECD3ED !important;
+  border-radius: 5px;
+}
+
+#dashboard.own {
+  border-top: 5px solid #ECD3ED;
+  border-bottom: 5px solid #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+#dashboard a:hover {
+  background: #0d0e1f;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+#dashboard a {
+  color: #ECD3ED;
+}
+
+dl.meta {
+  border: 1px solid #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+.listbox .index {
+  background: #0d0e1f;
+}
+
+.listbox,
+fieldset fieldset.listbox {
+  background: #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+form dl,
+fieldset,
+fieldset fieldset,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+input,
+select,
+select:focus,
+textarea,
+span.symbol.question,
+.own {
+  background: #0d0e1f !important;
+  color: #ECD3ED !important;
+  border: 1px solid #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+.autocomplete li.added,
+.post .meta dd ul li.added,
+label,
+label.required {
+  color: #ECD3ED;
+}
+
+span.delete {
+  background: #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+span.delete a {
+  color: #0d0e1f !important;
+  font-weight: bold;
+}
+
+.ui-sortable li,
+.dynamic form,
+div.dynamic {
+  background: #0d0e1f;
+  border: 1px solid #ECD3ED;
+}
+
+.dropdown {
+  background: #0d0e1f;
+}
+
+form.verbose legend,
+.verbose form legend {
+  background: #ECD3ED;
+  color: #0d0e1f;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+li.blurb {
+  border: 1px solid #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+.draft {
+  background: #0d0e1f;
+  color: #ECD3ED;
+  border: 2px dashed #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+.draft .wrapper {
+  background: #0d0e1f;
+  border: 1px solid #ECD3ED;
+}
+
+#header h2 {
+  background: #ECD3ED !important;
+  color: #0d0e1f;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+#stat_chart svg rect:first-of-type {
+  opacity: 60%;
+}
+
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect,
+#stat_chart svg g:nth-of-type(2) > g rect:last-of-type,
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:first-of-type {
+  filter: hue-rotate(140deg);
+  opacity: 80% !important;
+}
+
+.statistics .index li:nth-of-type(2n) {
+  background: #0d0e1f;
+  border: 1px solid #ECD3ED;
+}
+
+.reading h4.viewed,
+dl.index dd,
+table,
+th,
+dt.child {
+  background: #0d0e1f;
+}
+
+#modal,
+span.replied {
+  background: #0d0e1f;
+  color: #ECD3ED;
+  border: 2px solid #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+h4.heading.byline {
+  background: #ECD3ED;
+  color: #0d0e1f;
+}
+
+li.comment {
+  border: 1px solid #ECD3ED;
+}
+
+.comment div.icon {
+  border-bottom: 5px solid #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+.thread .even {
+  background: #424c5e;
+}
+
+.unread {
+  background: #0d0e1f;
+  border: 5px dashed #ECD3ED !important;
+}
+
+span.unread {
+  background: #ECD3ED;
+  color: #0d0e1f;
+}
+
+span.indicator::before {
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+.warnings .tag,
+.work .warning a.tag,
+dd.warning.tags a {
+  border: 1px solid #ECD3ED;
+  border-radius: 5px;
+  background: #ECD3ED;
+  padding-left: 2px;
+  padding-right: 2px;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+.relationships .tag,
+.work .relationships a.tag,
+dd.relationship.tags a {
+  background: none;
+  color: #ECD3ED !important;
+  font-weight: bold;
+  text-shadow: 0px 0px 3px #ECD3ED;
+}
+
+.filters .expander {
+  background: url("https://64.media.tumblr.com/3c89981f933f9f57157d6dcec6fd85a7/94c6737c6db9ad60-e5/s1280x1920/f7557e617a5439c506721bd326580a0cb4c1f8d8.png")
+left center no-repeat;
+  color: #ECD3ED !important;
+  font-weight: bold;
+}
+
+.filters .expanded .expander {
+  background: url("https://64.media.tumblr.com/dab095a2fd9387bc1e0c57747ba6b13f/94c6737c6db9ad60-ad/s1280x1920/c1a4e14e0565cdcac5d3e20bebac3ab440f2d607.png")
+left center no-repeat;
+}
+
+#header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #151726;
+}
+
+#header .heading {
+  height: 15em;
+}
+
+#header .primary {
+  background: #0d0e1f;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+#header .logo,
+#header .heading sup {
+  visibility: hidden;
+}
+
+#header .heading a {
+  color: #151726;
+  text-shadow: 0px 0px 3px #ECD3ED;
+}
+
+.event .userstuff {
+  background: #424c5e;
+  border: 1px solid #ECD3ED;
+}
+
+#outer.wrapper {
+  background: #0d0e1f;
+  color: #ECD3ED;
+}
+
+#main a {
+  color: #76859b;
+}
+
+#greeting a.dropdown-toggle,
+#header .actions a {
+  color: #ECD3ED !important;
+  text-shadow: 0px 0px 3px #151726;
+}
+
+#greeting .menu,
+#header .dropdown .menu,
+#header .dropdown:hover a {
+  background: #0d0e1f;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+span.submit.actions input.button {
+  display: none;
+}
+
+#greeting img.icon {
+  display: none;
+}
+
+#header #search .text,
+.search [role="tooltip"] {
+  background: #0d0e1f;
+  box-shadow: 0px 0px 3px #ECD3ED;
+  color: #ECD3ED !important;
+  border: 1px solid #0d0e1f;
+}
+
+form.search input[type=text],
+form.search input[type=submit],
+.autocomplete div.dropdown ul {
+  background: #0d0e1f !important;
+  border: none;
+  box-shadow: 0px 0px 3px #ECD3ED;
+  color: #ECD3ED;
+  display: block;
+}
+
+#header #search .text {
+  width: 7em;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  background: #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED !important;
+  color: #0d0e1f;
+  border: none;
+}
+
+.notice a,
+.comment_notice a,
+.kudos_notice a,
+ul.notes a,
+.caution a,
+.error a,
+.comment_error a,
+.kudos_error a,
+.alert.flash a {
+  color: #505b69;
+  font-weight: bold;
+}
+
+.splash .module h3 {
+  color: #ECD3ED;
+  border-bottom: 2px solid #ECD3ED;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a {
+  background: #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED;
+  color: #0d0e1f;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.splash .favorite li:nth-of-type(2n+2) a {
+  color: #ECD3ED;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 110%;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a:hover,
+.splash .favorite li:nth-of-type(2n+2) a:hover {
+  color: #ECD3ED;
+  font-weight: bold;
+  font-variant: small-caps;
+  background: #424c5e;
+}
+
+#footer {
+  background: #424c5e;
+  color: #ECD3ED;
+  border-top: 3px solid #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+#footer a,
+#footer .heading {
+  color: #ECD3ED;
+}
+
+.actions a,
+.actions a:focus,
+.actions input:focus,
+.action:focus,
+.actions li input,
+.actions li input[type="submit"],
+input[type="submit"],
+.actions li label,
+ul.navigation.actions li a,
+.action:link,
+.actions a:link {
+  background: #424c5e;
+  border: 1px solid #ECD3ED;
+  color: #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED;
+  border-radius: 5px;
+}
+
+.current,
+#dashboard .current {
+  background: #ECD3ED !important;
+  color: #0d0e1f !important;
+  box-shadow: 0px 0px 3px #ECD3ED !important;
+  border-radius: 5px;
+}
+
+#dashboard.own {
+  border-top: 5px solid #ECD3ED;
+  border-bottom: 5px solid #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+#dashboard a:hover {
+  background: #0d0e1f;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+#dashboard a {
+  color: #ECD3ED;
+}
+
+dl.meta {
+  border: 1px solid #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+.listbox .index {
+  background: #0d0e1f;
+}
+
+.listbox,
+fieldset fieldset.listbox {
+  background: #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+form dl,
+fieldset,
+fieldset fieldset,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+input,
+select,
+select:focus,
+textarea,
+span.symbol.question,
+.own {
+  background: #0d0e1f !important;
+  color: #ECD3ED !important;
+  border: 1px solid #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+.autocomplete li.added,
+.post .meta dd ul li.added,
+label,
+label.required {
+  color: #ECD3ED;
+}
+
+span.delete {
+  background: #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+span.delete a {
+  color: #0d0e1f !important;
+  font-weight: bold;
+}
+
+.ui-sortable li,
+.dynamic form,
+div.dynamic {
+  background: #0d0e1f;
+  border: 1px solid #ECD3ED;
+}
+
+.dropdown {
+  background: #0d0e1f;
+}
+
+form.verbose legend,
+.verbose form legend {
+  background: #ECD3ED;
+  color: #0d0e1f;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+li.blurb {
+  border: 1px solid #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+.draft {
+  background: #0d0e1f;
+  color: #ECD3ED;
+  border: 2px dashed #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+.draft .wrapper {
+  background: #0d0e1f;
+  border: 1px solid #ECD3ED;
+}
+
+#header h2 {
+  background: #ECD3ED !important;
+  color: #0d0e1f;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+#stat_chart svg rect:first-of-type {
+  opacity: 60%;
+}
+
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect,
+#stat_chart svg g:nth-of-type(2) > g rect:last-of-type,
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:first-of-type {
+  filter: hue-rotate(140deg);
+  opacity: 80% !important;
+}
+
+.statistics .index li:nth-of-type(2n) {
+  background: #0d0e1f;
+  border: 1px solid #ECD3ED;
+}
+
+.reading h4.viewed,
+dl.index dd,
+table,
+th,
+dt.child {
+  background: #0d0e1f;
+}
+
+#modal,
+span.replied {
+  background: #0d0e1f;
+  color: #ECD3ED;
+  border: 2px solid #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+h4.heading.byline {
+  background: #ECD3ED;
+  color: #0d0e1f;
+}
+
+li.comment {
+  border: 1px solid #ECD3ED;
+}
+
+.comment div.icon {
+  border-bottom: 5px solid #ECD3ED;
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+.thread .even {
+  background: #424c5e;
+}
+
+.unread {
+  background: #0d0e1f;
+  border: 5px dashed #ECD3ED !important;
+}
+
+span.unread {
+  background: #ECD3ED;
+  color: #0d0e1f;
+}
+
+span.indicator::before {
+  box-shadow: 0px 0px 3px #ECD3ED;
+}
+
+.warnings .tag,
+.work .warning a.tag,
+dd.warning.tags a {
+  border: 1px solid #ECD3ED;
+  border-radius: 5px;
+  background: #ECD3ED;
+  padding-left: 2px;
+  padding-right: 2px;
+  box-shadow: 0px 0px 10px #ECD3ED;
+}
+
+.relationships .tag,
+.work .relationships a.tag,
+dd.relationship.tags a {
+  background: none;
+  color: #ECD3ED !important;
+  font-weight: bold;
+  text-shadow: 0px 0px 3px #ECD3ED;
+}
+
+.filters .expander {
+  background: url("https://64.media.tumblr.com/3c89981f933f9f57157d6dcec6fd85a7/94c6737c6db9ad60-e5/s1280x1920/f7557e617a5439c506721bd326580a0cb4c1f8d8.png")
+left center no-repeat;
+  color: #ECD3ED !important;
+  font-weight: bold;
+}
+
+.filters .expanded .expander {
+  background: url("https://64.media.tumblr.com/dab095a2fd9387bc1e0c57747ba6b13f/94c6737c6db9ad60-ad/s1280x1920/c1a4e14e0565cdcac5d3e20bebac3ab440f2d607.png")
+left center no-repeat;
+}
+
+body:has(#chapters) #outer.wrapper {
+  background-color: #080b1c !important;
+  background-image: radial-gradient(circle at 12% 18%, rgba(236,211,237,0.65) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 27% 72%, rgba(236,211,237,0.45) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 43% 31%, rgba(236,211,237,0.55) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 61% 14%, rgba(236,211,237,0.5) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 76% 64%, rgba(236,211,237,0.6) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 91% 27%, rgba(236,211,237,0.45) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 84% 86%, rgba(236,211,237,0.5) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 7% 88%, rgba(236,211,237,0.4) 0 1px, transparent 1.5px);
+  background-size: 230px 230px,
+    310px 310px,
+    370px 370px,
+    280px 280px,
+    420px 420px,
+    330px 330px,
+    390px 390px,
+    270px 270px;
+  background-position: 0 0,
+    70px 40px,
+    120px 160px,
+    200px 80px,
+    40px 210px,
+    180px 20px,
+    250px 140px,
+    90px 190px;
+  background-attachment: fixed;
+}
+
+body:has(#chapters) #outer.wrapper {
+  background-color: #0b0f22 !important;
+  background-image: radial-gradient(circle at 4% 8%, rgba(236,211,237,0.28) 0 1px, transparent 1.6px), radial-gradient(circle at 11% 31%, rgba(236,211,237,0.20) 0 1px, transparent 1.5px), radial-gradient(circle at 18% 67%, rgba(236,211,237,0.25) 0 1px, transparent 1.6px), radial-gradient(circle at 26% 14%, rgba(236,211,237,0.18) 0 1px, transparent 1.5px), radial-gradient(circle at 34% 82%, rgba(236,211,237,0.22) 0 1px, transparent 1.5px), radial-gradient(circle at 43% 23%, rgba(236,211,237,0.20) 0 1px, transparent 1.5px), radial-gradient(circle at 51% 73%, rgba(236,211,237,0.25) 0 1px, transparent 1.6px), radial-gradient(circle at 59% 11%, rgba(236,211,237,0.18) 0 1px, transparent 1.5px), radial-gradient(circle at 67% 43%, rgba(236,211,237,0.22) 0 1px, transparent 1.5px), radial-gradient(circle at 75% 79%, rgba(236,211,237,0.20) 0 1px, transparent 1.5px), radial-gradient(circle at 83% 19%, rgba(236,211,237,0.25) 0 1px, transparent 1.6px), radial-gradient(circle at 91% 55%, rgba(236,211,237,0.20) 0 1px, transparent 1.5px), radial-gradient(circle at 97% 88%, rgba(236,211,237,0.24) 0 1px, transparent 1.6px);
+  background-size: 210px 210px, 270px 270px, 330px 330px, 390px 390px, 250px 250px, 360px 360px, 290px 290px, 430px 430px, 310px 310px, 370px 370px, 260px 260px, 410px 410px, 340px 340px;
+  background-position: 0 0, 40px 90px, 120px 20px, 180px 150px, 70px 230px, 250px 40px, 30px 170px, 160px 80px, 280px 220px, 90px 40px, 210px 190px, 40px 260px, 190px 120px;
+  background-attachment: fixed;
+}
+
+body:has(#chapters) #main {
+  background: transparent !important;
+}
+
+body:has(#chapters) #chapters {
+  width: 94%;
+  max-width: none;
+  margin: 0 auto;
+  padding: 2.8em 5em;
+  box-sizing: border-box;
+  background: rgba(25, 30, 53, 0.72) !important;
+  border: 1px solid rgba(236, 211, 237, 0.18);
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(8, 11, 28, 0.25), inset 0 0 35px rgba(236, 211, 237, 0.025);
+}
+
+body:has(#chapters) .chapter {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+body:has(#chapters) .chapter h3 {
+  border-bottom: none !important;
+  text-align: center;
+  padding-bottom: 1.2em;
+  position: relative;
+}
+
+body:has(#chapters) .chapter h3::after {
+  content: "✦ · ˚ · ✦";
+  display: block;
+  margin-top: 0.7em;
+  font-size: 0.65em;
+  font-weight: normal;
+  letter-spacing: 0.45em;
+  color: rgba(236, 211, 237, 0.42);
+}
+
+body:has(#chapters) .chapter .userstuff hr {
+  border: 0;
+  border-top: 1px solid rgba(236, 211, 237, 0.30);
+  height: 0;
+  margin: 2em auto;
+  max-width: 12em;
+  position: relative;
+}
+
+body:has(#chapters) .chapter .userstuff hr::after {
+  content: "✦";
+  display: block;
+  position: relative;
+  top: -0.65em;
+  width: 2em;
+  margin: 0 auto;
+  text-align: center;
+  background: #171c32;
+  color: rgba(236, 211, 237, 0.45);
+  font-size: 0.75em;
+}
+
+body:has(#chapters) #chapters .notes,
+body:has(#chapters) #chapters .end {
+  background: transparent !important;
+  border-color: rgba(236, 211, 237, 0.15);
+}
+
+body:has(#chapters) .reading h4.viewed {
+  background: rgba(25, 30, 53, 0.45) !important;
+}
+
+body:has(#chapters) #chapters {
+  width: 92%;
+  padding-left: 6em;
+  padding-right: 6em;
+}
+
+body:has(#chapters) #chapters {
+  width: 97%;
+  padding: 1.8em 1.25em;
+  border-radius: 9px;
+}
